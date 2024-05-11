@@ -90,6 +90,38 @@ section:nth-child(odd){
     border: 2px solid cyan;
     color: white;
 }
+.about{
+    display: grid;
+    place-items: center;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.jdl-about{
+    font-size: 70px;
+    text-shadow: 0 0 10px cyan;
+    margin-left: 320px;
+    
+}
+.desk-about{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: right;
+    max-width: 540px;
+    margin-left: 100px;
+}
+.quotes-1{
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
+.tokoh-1{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
 .homework{
     font-size: 50px;
     text-shadow: 0 0 10px cyan;
@@ -99,7 +131,7 @@ section:nth-child(odd){
     display: flex;
     margin-top: 12px;
     margin-right: 340px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 .link a{
     margin: 10px;
