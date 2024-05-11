@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    filter: drop-shadow(0 0 5px cyan);
+}
+nav {
+    margin-right: 45px;
+}
+nav a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 20px;
+    transition: .3s;
+}
+nav a:hover,
+nav a.active{
+    color: aqua;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f242d;
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+}
+section:nth-child(odd){
+    background: #323946;
+}
+.home {
+    display: grid;
+    place-items: center;
+}
+.welcome {
+    font-size: 70px;
+    text-shadow: 0 0 10px cyan;
+}
+.desk {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+
+
+
+/* responsive */
+/* CSS yang sudah ada */
+
+/* Tambahkan media queries untuk ukuran viewport yang berbeda */
+@media only screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+    .logo {
+      margin-left: 20px;
+      margin-top: 15px;
+    }
+    nav {
+      margin-right: 0;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 10px;
+    }
+    .welcome {
+      font-size: 40px;
+    }
+    .desk {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .logo {
+      width: 40px;
+      height: 40px;
+      margin-top: 15px;
+    }
+    nav{
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    nav a {
+      font-size: 14px;
+      padding: 8px;
+    }
+    .welcome {
+      font-size: 30px;
+    }
+    .desk {
+      font-size: 10px;
+    }
+  }
+  
