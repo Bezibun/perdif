@@ -25,6 +25,12 @@ header{
     height: 40px;
     margin-left: 40px;
     filter: drop-shadow(0 0 5px cyan);
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.logo:hover{
+    width: 45px;
+    height: 45px;
 }
 nav {
     margin-right: 45px;
@@ -64,9 +70,66 @@ section:nth-child(odd){
     text-shadow: 0 0 10px cyan;
 }
 .desk {
+    margin-top: 10px;
     font-size: 15px;
     font-weight: 500;
     text-align: center;
+}
+.btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 15px;
+    text-decoration: none;
+    color: cyan;
+    border: 2px solid cyan;
+    border-radius: 30px;
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    background: cyan;
+    border: 2px solid cyan;
+    color: white;
+}
+.homework{
+    font-size: 50px;
+    text-shadow: 0 0 10px cyan;
+    margin-right: 120px;
+}
+.link {
+    display: flex;
+    margin-top: 12px;
+    margin-right: 340px;
+    margin-bottom: 60px;
+}
+.link a{
+    margin: 10px;
+}
+.quo{
+    padding: 80px 40px;
+    background: #1f242d;
+    border-radius: 15px;
+    box-shadow: 6px 6px 12px cyan;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.quo:hover{
+    padding: 100px 50px;
+    background: #1f242d;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px cyan;
+    font-weight: bold;
+}
+.quotes {
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
+.tokoh{
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 120px;
 }
 
 
@@ -122,6 +185,9 @@ section:nth-child(odd){
     }
     .desk {
       font-size: 10px;
+    }
+    .btn{
+        font-size: 12px;
     }
   }
   
