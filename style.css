@@ -163,6 +163,13 @@ section:nth-child(odd){
 .hari {
     font-size: 30px;
     text-align: center;
+    cursor: pointer;
+    color: #323946;
+    text-shadow: 0 0 20px black;
+    transition: .3s ease-in-out;
+}
+.hari:hover{
+    color: white;
 }
 .matkul{
     margin: 15px;
@@ -172,6 +179,7 @@ section:nth-child(odd){
     background: #323946;
     border-radius: 15px;
     transition: .3s ease-in-out;
+    cursor: pointer;
 }
 .matkul:hover{
     padding: 70px 30px 30px 30px;
