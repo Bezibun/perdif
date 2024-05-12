@@ -1,310 +1,316 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    font-family: 'poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "poppins", sans-serif;
 }
 
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #11141a;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #11141a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
 }
 
-.logo{
-    padding: 20px;
-    width: 40px;
-    height: 40px;
-    margin-left: 40px;
-    filter: drop-shadow(0 0 5px cyan);
-    cursor: pointer;
-    transition: .2s ease-in-out;
+.logo {
+  padding: 20px;
+  width: 40px;
+  height: 40px;
+  margin-left: 40px;
+  filter: drop-shadow(0 0 5px cyan);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
-.logo:hover{
-    width: 45px;
-    height: 45px;
+.logo:hover {
+  width: 45px;
+  height: 45px;
 }
 nav {
-    margin-right: 45px;
+  margin-right: 45px;
 }
-nav a{
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    padding: 10px;
-    margin-right: 20px;
-    transition: .3s;
+nav a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px;
+  margin-right: 20px;
+  transition: 0.3s;
 }
 nav a:hover,
-nav a.active{
-    color: aqua;
+nav a.active {
+  color: aqua;
 }
-section{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1f242d;
-    color: white;
-    font-size: 100px;
-    font-weight: 700;
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f242d;
+  color: white;
+  font-size: 100px;
+  font-weight: 700;
 }
-section:nth-child(odd){
-    background: #323946;
+section:nth-child(odd) {
+  background: #323946;
 }
 .home {
-    display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
 }
 .welcome {
-    font-size: 70px;
-    text-shadow: 0 0 10px cyan;
+  font-size: 70px;
+  text-shadow: 0 0 10px cyan;
 }
 .desk {
-    margin-top: 10px;
-    font-size: 15px;
-    font-weight: 500;
-    text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
 }
 .btn {
-    margin-top: 20px;
-    padding: 10px 30px;
-    font-size: 15px;
-    text-decoration: none;
-    color: cyan;
-    border: 2px solid cyan;
-    border-radius: 30px;
-    transition: .3s ease-in-out;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 15px;
+  text-decoration: none;
+  color: cyan;
+  border: 2px solid cyan;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
 }
-.btn:hover{
-    background: cyan;
-    border: 2px solid cyan;
-    color: white;
+.btn:hover {
+  background: cyan;
+  border: 2px solid cyan;
+  color: white;
 }
-.about{
-    display: grid;
-    place-items: center;
-    margin-left: 30px;
-    margin-bottom: 40px;
+.about {
+  display: grid;
+  place-items: center;
+  margin-left: 30px;
+  margin-bottom: 40px;
 }
-.jdl-about{
-    font-size: 70px;
-    text-shadow: 0 0 10px cyan;
-    margin-left: 420px;
+.jdl-about {
+  font-size: 70px;
+  text-shadow: 0 0 10px cyan;
+  margin-left: 420px;
 }
-.desk-about{
-    margin-top: 10px;
-    font-size: 15px;
-    font-weight: 500;
-    text-align: right;
-    max-width: 540px;
-    margin-left: 100px;
+.desk-about {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: right;
+  max-width: 540px;
+  margin-left: 100px;
 }
-.quo-1{
-    padding: 80px 40px;
-    background: #1f242d;
-    border-radius: 15px;
-    box-shadow: 6px 6px 12px cyan;
-    cursor: pointer;
-    transition: .3s ease-in-out;
+.quo-1 {
+  padding: 80px 40px;
+  background: #1f242d;
+  border-radius: 15px;
+  box-shadow: 6px 6px 12px cyan;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
-.quo-1:hover{
-    padding: 100px 50px;
-    background: #1f242d;
-    border-radius: 15px;
-    box-shadow: 10px 10px 15px cyan;
-    font-weight: bold;
+.quo-1:hover {
+  padding: 100px 50px;
+  background: #1f242d;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px cyan;
+  font-weight: bold;
 }
-.quotes-1{
-    font-size: 18px;
-    text-align: center;
-    font-style: italic;
-    font-weight: 400;
+.quotes-1 {
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
 }
-.tokoh-1{
-    font-weight: 400;
-    font-size: 12px;
-    margin-top: 30px;
-    margin-left: 100px;
+.tokoh-1 {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-left: 100px;
 }
-#schedule{
-    display: grid;
+#schedule {
+  display: grid;
 }
-.jadwal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.jadwal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.jdl-schedule{
-    font-size: 70px;
-    text-shadow: 0 0 10px cyan;
-    text-align: center;
-    margin-top: 120px;
+.jdl-schedule {
+  font-size: 70px;
+  text-shadow: 0 0 10px cyan;
+  text-align: center;
+  margin-top: 120px;
 }
 .senin,
 .selasa,
 .rabu,
 .kamis,
-.jumat{
-    display: grid;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 120px;
+.jumat {
+  display: grid;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 120px;
 }
 .hari {
-    font-size: 30px;
-    text-align: center;
-    cursor: pointer;
-    color: #323946;
-    text-shadow: 0 0 20px black, 0 0 20px black;
-    transition: .3s ease-in-out;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  color: #323946;
+  text-shadow: 0 0 20px black, 0 0 20px black;
+  transition: 0.3s ease-in-out;
 }
-.hari:hover{
-    color: white;
+.hari:hover {
+  color: white;
 }
-.matkul{
-    margin: 15px;
-    font-size: 15px;
-    font-weight: 400;
-    padding: 60px 20px 20px 20px;
-    background: #323946;
-    border-radius: 15px;
-    transition: .3s ease-in-out;
-    cursor: pointer;
+.matkul {
+  margin: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 60px 20px 20px 20px;
+  background: #323946;
+  border-radius: 15px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
-.matkul:hover{
-    padding: 70px 30px 30px 30px;
-    box-shadow: 4px 4px 8px cyan;
+.matkul:hover {
+  padding: 70px 30px 30px 30px;
+  box-shadow: 4px 4px 8px cyan;
 }
-.home-1{
-    display: grid;
-    place-items: center;
+.home-1 {
+  display: grid;
+  place-items: center;
 }
-.homework{
-    font-size: 50px;
-    text-shadow: 0 0 10px cyan;
-    margin-right: 120px;
+.homework {
+  font-size: 50px;
+  text-shadow: 0 0 10px cyan;
+  margin-right: 120px;
 }
 .link {
-    display: flex;
-    margin-top: 12px;
-    margin-right: 340px;
-    margin-bottom: 80px;
+  display: flex;
+  margin-top: 12px;
+  margin-right: 340px;
+  margin-bottom: 80px;
 }
-.link a{
-    margin: 10px;
+.link a {
+  margin: 10px;
 }
-.quo{
-    padding: 80px 40px;
-    background: #1f242d;
-    border-radius: 15px;
-    box-shadow: 6px 6px 12px cyan;
-    cursor: pointer;
-    transition: .3s ease-in-out;
+.quo {
+  padding: 80px 40px;
+  background: #1f242d;
+  border-radius: 15px;
+  box-shadow: 6px 6px 12px cyan;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
-.quo:hover{
-    padding: 100px 50px;
-    background: #1f242d;
-    border-radius: 15px;
-    box-shadow: 10px 10px 15px cyan;
-    font-weight: bold;
+.quo:hover {
+  padding: 100px 50px;
+  background: #1f242d;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px cyan;
+  font-weight: bold;
 }
 .quotes {
-    font-size: 14px;
-    text-align: center;
-    font-style: italic;
-    font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
 }
-.tokoh{
-    font-weight: 400;
-    font-size: 10px;
-    margin-top: 30px;
-    margin-left: 120px;
+.tokoh {
+  font-weight: 400;
+  font-size: 10px;
+  margin-top: 30px;
+  margin-left: 120px;
 }
-#personil{
-    display: grid;
+#personil {
+  display: grid;
 }
 .person {
-    display: grid;
-    place-content: center;
-    margin-bottom: 50px;
+  display: grid;
+  place-content: center;
+  margin-bottom: 50px;
 }
 .personil {
-    font-size: 70px;
-    text-shadow: 0 0 10px cyan;
-    text-align: center;
+  font-size: 70px;
+  text-shadow: 0 0 10px cyan;
+  text-align: center;
 }
-.anggota{
-    display: grid;
-    place-content: center;
+.anggota {
+  display: grid;
+  place-content: center;
 }
-.anggota1, 
+.anggota1,
 .anggota3,
-.anggota5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.anggota5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.mahasiswa{
-    font-size: 15px;
-    font-weight: 500;
-    padding: 10px 20px;
-    border-radius: 30px;
-    color: cyan;
-    border: 2px dotted cyan;
-    margin: 10px;
-    transition: .3s ease-in-out;
-    cursor: pointer;
+.mahasiswa {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: cyan;
+  border: 2px dotted cyan;
+  margin: 10px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
-.mahasiswa:nth-child(odd){
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+.mahasiswa:nth-child(odd) {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-.mahasiswa:hover{
-    background-color: cyan;
-    color: white;
-    padding: 15px 25px;
+.mahasiswa:hover {
+  background-color: cyan;
+  color: white;
+  padding: 15px 25px;
 }
-.footer{
-    position: absolute;
-    width: 100%;
-    margin-top: 600px;
-    height: 60px;
-    background: #11141a;
-    backdrop-filter: blur(20px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer {
+  position: absolute;
+  width: 100%;
+  margin-top: 600px;
+  height: 60px;
+  background: #11141a;
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.footer h1{
-    font-size: 15px;
-    font-weight: 400;
+.kls-perdif {
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 300px;
 }
-
-
-
-
-
+.ojan {
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 200px;
+}
+.footer img {
+  width: 30px;
+  height: 30px;
+  filter: drop-shadow(0 0 5px cyan);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-left: 300px;
+}
 
 /* responsive */
 /* CSS yang sudah ada */
 
 /* Tambahkan media queries untuk ukuran viewport yang berbeda */
 @media only screen and (max-width: 768px) {
-    
-  }
-  
+}
+
 @media only screen and (max-width: 480px) {
-    
-  }
-  
+}
