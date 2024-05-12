@@ -165,7 +165,7 @@ section:nth-child(odd){
     text-align: center;
     cursor: pointer;
     color: #323946;
-    text-shadow: 0 0 20px black;
+    text-shadow: 0 0 20px black, 0 0 20px black, 0 0 20px black;
     transition: .3s ease-in-out;
 }
 .hari:hover{
