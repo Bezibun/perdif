@@ -230,6 +230,66 @@ section:nth-child(odd){
     margin-top: 30px;
     margin-left: 120px;
 }
+#personil{
+    display: grid;
+}
+.person {
+    display: grid;
+    place-content: center;
+    margin-bottom: 50px;
+}
+.personil {
+    font-size: 70px;
+    text-shadow: 0 0 10px cyan;
+    text-align: center;
+}
+.anggota{
+    display: grid;
+    place-content: center;
+}
+.anggota1, 
+.anggota3,
+.anggota5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mahasiswa{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: cyan;
+    border: 2px dotted cyan;
+    margin: 10px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.mahasiswa:nth-child(odd){
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mahasiswa:hover{
+    background-color: cyan;
+    color: white;
+    padding: 15px 25px;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    margin-top: 600px;
+    height: 60px;
+    background: #11141a;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer h1{
+    font-size: 15px;
+    font-weight: 400;
+}
 
 
 
