@@ -99,14 +99,14 @@ section:nth-child(odd){
 .jdl-about{
     font-size: 70px;
     text-shadow: 0 0 10px cyan;
-    margin-left: 320px;
+    margin-left: 420px;
 }
 .desk-about{
     margin-top: 10px;
     font-size: 15px;
     font-weight: 500;
     text-align: right;
-    max-width: 440px;
+    max-width: 540px;
     margin-left: 100px;
 }
 .quo-1{
